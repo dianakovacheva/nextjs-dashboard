@@ -2,5 +2,6 @@
   "/dashboard/(overview)/page": "app/dashboard/(overview)/page.js",
   "/login/page": "app/login/page.js",
   "/dashboard/invoices/page": "app/dashboard/invoices/page.js",
-  "/dashboard/customers/page": "app/dashboard/customers/page.js"
+  "/dashboard/customers/page": "app/dashboard/customers/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
