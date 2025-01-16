@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.ts"],"sourcesContent":["import NextAuth from \"next-auth\";\nimport { authConfig } from \"../auth.config\";\n\nexport default NextAuth(authConfig).auth;\n\nexport const config = {\n  // https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher\n  matcher: [\"/((?!api|_next/static|_next/image|.*\\\\.png$).*)\"],\n};\n"],"names":[],"mappings":";;;;AAAA;;;;;;AAAA;;;uCAGe,CAAA,GAAA,wVAAA,CAAA,UAAQ,AAAD,EAAE,YAAY,IAAI;AAEjC,MAAM,SAAS;IACpB,mFAAmF;IACnF,SAAS;QAAC;KAAkD;AAC9D"}},
-    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
